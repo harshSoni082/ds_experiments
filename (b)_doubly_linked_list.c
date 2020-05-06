@@ -82,6 +82,7 @@ int main()
     else
     {
       curr_node->next = new_node;
+      new_node->prev = curr_node;
       curr_node = curr_node->next;
     }
   }

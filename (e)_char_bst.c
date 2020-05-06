@@ -72,7 +72,7 @@ void preorder_traversal(node *root)
 
 }
 
-void postorder_traversal(node * root)
+void postorder_traversal(node *root)
 {
   if(root)
   {
@@ -80,7 +80,6 @@ void postorder_traversal(node * root)
     postorder_traversal(root->right);
     printf("%c, ", root->key);
   }
-
 }
 
 int main()
